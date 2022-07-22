@@ -107,3 +107,9 @@ def outer():
         print('inner function')
     inner()
 outer()
+
+
+# lambda
+add_f = lambda x=1, y=1: x + y
+print(add_f())
+print(add_f(2,2))
